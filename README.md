@@ -34,18 +34,9 @@ Creative Director Agent: If the concept is approved, this agent crafts a detaile
 
 Video Generation API: A simulated API (e.g., Google Veo 3) generates the final video based on the prompt.
 
-[Brief] -> [Orchestrator] -> [Salesforce API]
-                                    |
-                                    v
-[Customer Data] -> [Concept Generator] -> [Creative Concept]
-                                                |
-                                                v
-                    [Brand Guardian] --(Vector DB)--> [Approved/Rejected]
-                          | (if approved)
-                          v
-[Creative Director] -> [Detailed Prompt] -> [Video API] -> [Final Video]
+
 
 The script will run two pre-defined campaign scenarios, logging the entire decision-making process of the AI agents to both the console and a marketing_ai.log file.
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
