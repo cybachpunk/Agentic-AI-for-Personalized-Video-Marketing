@@ -1,6 +1,6 @@
 # Agentic AI for Personalized Video Marketing
 
-This project is a Python-based framework for an agentic AI system designed to automate the creation of personalized marketing videos via MCP. It connects to Salesforce Marketing Cloud for customer data, uses a vector database for brand safety, and orchestrates a team of AI agents to generate creative concepts and video prompts for a luxury coffee brand. It can be adapted for any kind of brand provided a well thought out definition. It's designed to be modular and as definitions grow, videos become more true to brand. 
+This project is a Python-based framework for an agentic AI system designed to automate the creation of personalized marketing videos via MCP using Google's latest Veo model (v3). It connects to Salesforce Marketing Cloud for customer data, uses a vector database for brand safety, and orchestrates a team of AI agents to generate creative concepts and video prompts for a luxury coffee brand. It can be adapted for any kind of brand provided a well thought out definition. It's designed to be modular and as definitions grow, videos become more true to brand. 
 
 Different agentic roles work together to create organization-sanctioned content mimicking a team of staff working together. When complete, output to the console is logged, making decisions clear to end users and enabling additional prompting and future edge case handling as necessary.
 
