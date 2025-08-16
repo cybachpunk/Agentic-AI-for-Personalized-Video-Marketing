@@ -1,0 +1,11 @@
+# # To install these dependencies, run: pip install -r requirements.txt
+# requests
+# chromadb
+# sentence-transformers
+# python-dotenv
+
+# # Copy this file to .env and fill in your actual credentials
+# SFMC_CLIENT_ID="YOUR_CLIENT_ID_HERE"
+# SFMC_CLIENT_SECRET="YOUR_CLIENT_SECRET_HERE"
+# SFMC_AUTH_URL="https://YOUR_SUBDOMAIN.auth.marketingcloudapis.com/v2/token"
+# SFMC_BASE_API_URL="https://YOUR_SUBDOMAIN.rest.marketingcloudapis.com"
